@@ -3,10 +3,9 @@ body{
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://i.pinimg.com/originals/ea/91/57/ea9157c637c1279aa6c6c42a3bd653e8.jpg);
+    background-image: url(https://wallpaperaccess.com/full/20224.jpg);
 }
 .wasted{
-    border: 2px solid black;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 250px 250px 250px;
@@ -17,13 +16,23 @@ body{
 }
 img{
     height: 200px;
-    width: 200px;
+    width: 300px;
+    border: 2px solid #7559a5;
    
 }
 div{
-    border: 2px solid black;
+   bottom: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+P{
+    color: #e83e33;
+    font-size: xx-large;
+    font-style: bold;
+    font-family: fantasy;
+    font-stretch:extra-condensed;
+    font-variant: small-caps;
+    text-shadow:white 2px 1px 5px;
 }
